@@ -20,8 +20,8 @@ class DvrConfig extends Entity
     public $dvrEncryptionSharedSecret = "";
     public $dvrMediaCacheEnabled = false;
     public $httpRandomizeMediaName = false;
-    public $Recorders = null;
-    public $Store = null;
+    public $Recorders = '';
+    public $Store = '';
 
     public function setURI($baseURI)
     {
