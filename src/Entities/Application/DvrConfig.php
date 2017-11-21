@@ -22,6 +22,12 @@ class DvrConfig extends Entity
     public $httpRandomizeMediaName = false;
     public $recorders = '';
     public $store = '';
+    public $httpStreamers = [
+        'cupertinostreaming',
+        'smoothstreaming',
+        'sanjosestreaming',
+        'mpegdashstreaming',
+    ];
 
     public function setURI($baseURI)
     {
