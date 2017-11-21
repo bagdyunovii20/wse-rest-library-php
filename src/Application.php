@@ -14,6 +14,12 @@ class Application extends Wowza
     protected $clientStreamReadAccess = "*";
     protected $clientStreamWriteAccess = "*";
     protected $description = "";
+    public $httpStreamers = [
+      'cupertinostreaming',
+      'smoothstreaming',
+      'sanjosestreaming',
+      'mpegdashstreaming',
+    ];
 
     public function __construct(
         Settings $settings,
