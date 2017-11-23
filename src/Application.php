@@ -14,6 +14,8 @@ class Application extends Wowza
     protected $clientStreamReadAccess = "*";
     protected $clientStreamWriteAccess = "*";
     protected $description = "";
+    public $httpCORSHeadersEnabled = 0;
+
     public $httpStreamers = [
       'cupertinostreaming',
       'smoothstreaming',
